@@ -647,7 +647,7 @@ while running:
     show_hud()
 
     if grid_on:
-        draw_grid(offset_y)
+        draw_grid(0, offset_y)
 
     if stage == START:
         show_start_screen()
